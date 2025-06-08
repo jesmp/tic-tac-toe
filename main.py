@@ -14,11 +14,9 @@ input_map = {
     'bl': (2, 0), 'bm': (2, 1), 'br': (2, 2),
 }
 
-
 # If run using cmd or terminal, screen will clear when method is called
 def clear_terminal():
     os.system('cls' if os.name == 'nt' else 'clear')
-
 
 # Makes robot pick their move while not picking a square the player has chosen
 def robot_pick():
@@ -30,7 +28,6 @@ def robot_pick():
         display_board()
         print("Game Over! No winners this time!")
         continue_game()
-
 
 # Checks if someone has won
 def check_for_win():
@@ -105,7 +102,6 @@ def continue_game():
         game_on()
     else:
         pass
-
 
 def game_on():
     while '-' in TTT[0] or '-' in TTT[1] or '-' in TTT[2]:
