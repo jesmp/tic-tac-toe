@@ -1,0 +1,35 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon?
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in external volumes
+.Spotlight-V100
+.Trashes
+
+# macOS metadata
+*.swp
+*.lock
+*.bak
+
+# macOS resource forks
+*.AppleDouble
+
+# Saved search results
+*.savedSearch
+
+# macOS Quick Look preview cache
+*.qlgenerator
+
+# macOS Finder tags
+.metadata_never_index
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+.idea/*
